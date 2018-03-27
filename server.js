@@ -91,7 +91,31 @@ io.sockets.on("connection", function(socket) {
 
 console.log("Started");
 
+var songList = [
+    "Det börjar verka kärlek banne mig", //0
+    "Dansa i neon", //1
+    "Fångad av en stormvind", //2
+    "Kom och ta mig", //3
+    "Give me your love", //4
+    "Sing for me", //5
+    "Hero", //6 
+    "Moving on", //7
+    "Manboy", //8 
+    "Hello goodbye", //9
+    "You", //10
+    "Heroes", //11
+    "Bada nakna", //12
+    "If I were sorry", //13
+    "Hold on" //14
+];
+
 setInterval(function() {
 	fs.writeFile("./data/votes.json", JSON.stringify(songs));
 	fs.writeFile("./data/codes.json", JSON.stringify({ codes: codes }));
+	
+	var txt = "";
+	for(var i = 0; i < Object.keys(songs).length; i++){
+		txt+= (i+1) + ". " + songList[i] + ": " + songs[i] + "\n";
+	}
+	fs.writeFile("/var/www/hemligkatalog.txt", txt);
 }, 10000);
