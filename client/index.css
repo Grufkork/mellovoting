@@ -25,16 +25,14 @@ body {
 #code {
     text-align: center;
     width: 100%;
-    border: none;
-    //height: 5em;
+    border: none; //height: 5em;
     font-size: 3em;
     border-radius: 10px 10px 10px 10px;
 }
 
 #connect {
     width: 100%; //border-radius: 0px 0px 10px 10px;
-    font-size: 4em;
-    //border: none;
+    font-size: 4em; //border: none;
     //border-top: 1px solid gray;
 }
 
@@ -57,18 +55,19 @@ body {
     font-size: 3em;
 }
 
-#songList{
-    font-size:2em;
+#songList {
+    font-size: 2em;
 }
 
-#sendVote{
+#sendVote {
     font-size: 3em;
 }
 
-#votesLeft{
+#votesLeft {
     font-size: 3em;
 }
 
-/*#status{
-    line-height: 50vh;
-}*/
+#status {
+    //line-height: 50vh;
+    font-size: 7em;
+}
