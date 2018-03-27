@@ -2,7 +2,7 @@
 const fs = require("fs"),
     chars = "abcdefghijklmnopqrstuvwxyz0123456789";
 
-var numberOfCodes = 200;
+var numberOfCodes = 400;
 var codeLength = 5;
 
 var codes = [];
