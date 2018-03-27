@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://preview.c9users.io/gryphyx/voting/favicon.ico">
+    <title>Medolivestifalsvotering</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div id="login">
+        <!--<img id="logo" src="https://www.svtstatic.se/image-cms/svtse/1485509270/melodifestivalen/om-appen/article12126274.svt/alternates/extralarge/appikon-melloapp-1920-jpg">-->
+        <img id="logo" src="https://preview.c9users.io/gryphyx/voting/appikon-melloapp-1920-.png">
+        <br>
+        <div id="loginSubDiv">
+            <input placeholder="Röstningskod" id="code"><br>
+            <button id="connect">Till Röstningen</button>
+        </div>
+    </div>
+    <div id="vote">
+        <h3>Välj bidrag at rösta på</h3>
+        <p id="votesLeft"></p>
+        <select id="songList">
+            <option>--Välj Bidrag--</option>
+        </select>
+        <button id="sendVote">Rösta</button>
+    </div>
+    
+    <div id="waiting" style="text-align:center">
+        <h1 id="status"></h1>
+        <button id="ok">OK</button>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

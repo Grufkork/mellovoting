@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    background-image: url("https://cdn.shopify.com/s/files/1/2674/9440/products/Embers02_620x.gif?v=1517987776");
+    background-size: cover;
+    background-repeat: no-repeat; //background-position:center bottom;
+    //height: 98vh;
+    margin: 0;
+    height: 100vh;
+}
+
+#login {
+    text-align: center;
+}
+
+#vote {
+    text-align: center;
+}
+
+#logo {
+    height: 50vh;
+}
+
+#code {
+    text-align: center;
+    width: 100%;
+    border: none;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+#connect {
+    width: 100%; //border-radius: 0px 0px 10px 10px;
+    //border: none;
+    //border-top: 1px solid gray;
+}
+
+#loginSubDiv {
+    width: 15em;
+    margin: 0 auto;
+}
+
+#vote {
+    display: none;
+}
+
+#waiting {
+    text-align: center;
+}
+
+#ok {
+    margin: 0 auto;
+    display: none;
+}
+
+/*#status{
+    line-height: 50vh;
+}*/
