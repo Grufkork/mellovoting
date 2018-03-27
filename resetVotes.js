@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-var alternatives = 14;
+var alternatives = 15;
 //var votes = JSON.parse(fs.readFileSync("data/votes.json"));
 //var votes = fs.readFileSync("./data/votes.json");
 
