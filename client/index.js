@@ -38,7 +38,7 @@ songs.forEach(function(value) {
 });
 //document.getElementById("songList").selectedIndex = "1";
 
-const serverAddress = /*"https://voting-gryphyx.c9users.io";*/"https://139.59.209.179:8080";
+const serverAddress = /*"https://voting-gryphyx.c9users.io";*/"http://139.59.209.179:8080";
 
 document.getElementById("connect").onclick = function() {
     /*var socket = io.connect("https://voting-gryphyx.c9users.io:8080");
