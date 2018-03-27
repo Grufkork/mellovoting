@@ -32,7 +32,7 @@ body {
 
 #connect {
     width: 100%; //border-radius: 0px 0px 10px 10px;
-    font-size: 4em; //border: none;
+    font-size: 5em; //border: none;
     //border-top: 1px solid gray;
 }
 
@@ -52,22 +52,25 @@ body {
 #ok {
     margin: 0 auto;
     display: none;
-    font-size: 3em;
+    font-size: 5em;
 }
 
 #songList {
     font-size: 2em;
+    height: 2em;
 }
 
 #sendVote {
-    font-size: 3em;
+    font-size: 5em;
+    margin-top: 1em;
 }
 
 #votesLeft {
-    font-size: 3em;
+    font-size: 5em;
 }
 
 #status {
     //line-height: 50vh;
     font-size: 7em;
+    padding-top: 25vh;
 }
