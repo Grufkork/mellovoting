@@ -26,18 +26,20 @@ body {
     text-align: center;
     width: 100%;
     border: none;
-
+    //height: 5em;
+    font-size: 3em;
     border-radius: 10px 10px 0px 0px;
 }
 
 #connect {
     width: 100%; //border-radius: 0px 0px 10px 10px;
+    font-size: 4em;
     //border: none;
     //border-top: 1px solid gray;
 }
 
 #loginSubDiv {
-    width: 15em;
+    width: 25em;
     margin: 0 auto;
 }
 
@@ -52,6 +54,19 @@ body {
 #ok {
     margin: 0 auto;
     display: none;
+    font-size: 3em;
+}
+
+#songList{
+    font-size:2em;
+}
+
+#sendVote{
+    font-size: 3em;
+}
+
+#votesLeft{
+    font-size: 3em;
 }
 
 /*#status{

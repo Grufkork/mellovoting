@@ -12,7 +12,7 @@ Får 10 kr av Griffin (Grufkork)
 */
 
 var songs = [
-    "Det börjar värka kärlek banne mig", //0
+    "Det börjar verka kärlek banne mig", //0
     "Dansa i neon", //1
     "Fångad av en stormvind", //2
     "Kom och ta mig", //3
